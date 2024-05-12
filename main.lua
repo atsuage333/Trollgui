@@ -10,7 +10,7 @@ local HomeTab = Window:MakeTab({
 HomeTab:AddButton({
 	Name = "FlingAll",
 	Callback = function()
-	      
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/atsuage333/Trollgui/main/allfling.lua')))()
   	end    
 })
 
