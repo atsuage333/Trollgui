@@ -7,9 +7,8 @@ local HomeTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-HomeTab:AddToggle({
+HomeTab:AddButton({
 	Name = "FlingAll",
-	Default = false,
 	Callback = function()
 	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/atsuage333/Trollgui/main/allfling.lua')))()
   	end    
